@@ -1,0 +1,35 @@
+/* CSS Document */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+#head { transition: all 0.5s; z-index: 997;padding: 20px 0; }
+#head .navbar-brand { float: left; padding: 26px 15px; font-size: 30px; line-height: 1px; height: 50px; }
+#head .navbar-default { background: none; border: none; color: RGBA; }
+#head .navbar-default .navbar-nav>li>a { font-size: 22px; color:#000000; font-weight: Medium; padding: 30px 38px; }
+#head_navi .nav { margin: 8px 0 0 0; }
+#head_navi .nav > li:last-child:after { content: none; }
+
+#content img { max-width: 100%; }
+.main1 { background: url("/coffee/img/1_bg_f.png")center repeat-x; }
+
+.main_title1 { color: #FFFFFF; font-size: 80px; font-weight: bold; margin-top: 2%; padding: 0px 0px 40px 40px; position: relative; z-index: 1; width: 1000px; }
+.main_title2 { color: #fff799; font-size: 22px; font-weight: normal; margin-top: 2%; padding: 154px 40px 26px 40px; position: relative; z-index: 1; width: 1000px; }
+.main_title3 { color: #000000; font-size: 18px; padding: 20px 40px 26px 40px; position: relative; z-index: 1; width: 1000px;  }
+.main_title4 { color: #000000; font-size: 18px; margin-left: 40px; padding: 20px 40px 26px 40px; position: relative; z-index: 1; width: 1000px; }
+
+.carousel-control {background: none !important; }
+.carousel-inner > .item > img { top: 0; left: 0; min-width: 100%; min-height: 400px; } 
+
+.main2 { background: url("/coffee/img/2_field.png") center repeat-x; }
+
+.main2_title1 { text-align: center; color: #000000; font-size: 28px; font-weight: thin; padding: 30px 40px 30px 40px; }
+.main2_title2 { text-align: center; color: #000000; font-size: 60px; font-weight: bold; }
+.main2_title3 { text-align: center; color: #000000; font-size: 18px; font-weight: normal; line-height: 30px; padding: 30px 40px 70px 40px; }
+
+.main2_card { text-align: center; }
+.card_boby { text-align: left; padding: 36px 0 0 46px; }
+.card_title { color: #00653b; font-size: 36px; font-weight: medium; }
+.card_texts { color: #000000; font-size: 18px; font-weight: normal; line-height: 26px; }
